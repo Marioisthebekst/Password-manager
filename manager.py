@@ -21,7 +21,6 @@ def saving_password():
     message.pack()
     insert_password.delete(0,tkinter.END)
     software.delete(0,tkinter.END)
-    WIN.after(300,message.pack_forget())
 
 
 
